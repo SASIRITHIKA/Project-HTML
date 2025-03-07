@@ -3,12 +3,10 @@
     padding: 0;
     box-sizing: border-box;
     font-family: Arial, sans-serif;
-    width: auto;
 }
-/* body { */
-    /* overflow-y: hidden;  */
-    /* overflow-x: hidden; */
-/* } */
+body::-webkit-scrollbar{
+    display: none;
+}
 
 .header {
     background-color: #f7f9ff;
@@ -432,29 +430,32 @@ font-family: "Gilroy-Bold", sans-serif;
     display: flex;
     justify-content: space-between; 
     align-items: flex-start;
-    width: aut0;
+
     height: 586px;
-    margin: auto; 
+
     padding: 40px; 
     background-color: #0d2116;
     margin-top: 100px;
     color: #ffffff;
 }
 
-.div8-box {
+.div8box {
     flex: 1; 
     min-width: 250px; 
     margin: 10px;
     color: white;
 }
 
-.div8-box1 {
+.div8box1 {
     display: flex;
     flex-direction: column;
     gap: 20px;
+    margin-left: 100px;
+    width: 260px;
+    height: 200px;
 }
 
-.logo-title {
+.logotitle {
     display: flex;
     align-items: center;
     gap: 10px;
@@ -481,4 +482,52 @@ font-family: "Gilroy-Bold", sans-serif;
     display: flex;
     justify-content: space-between;
 }
+.div8box2{
+    width: 127px;
+height: 262px;
+left: 360px;
+}
 
+.div8txt{
+    font-family: "Gilroy-Bold", sans-serif;
+font-weight: 400;
+font-size: 16px;
+line-height: 140%;
+letter-spacing: 0%;
+padding-top: 12px;
+padding-bottom: 12px;
+}
+.div8box3{
+    width: 133px;
+    height: 144px;
+    left: 562px;
+}
+.div8b3txt{
+    width: 133px;
+    font-family: "Gilroy-Bold", sans-serif;
+
+gap: 8px;
+padding-top: 12px;
+padding-bottom: 12px;
+}
+.div8box4{
+    width: 283px;
+    height: 262px;
+    left: 770px;
+}
+.div8b4txt{
+    font-family: "Gilroy-Bold", sans-serif;
+gap: 8px;
+padding-top: 12px;
+padding-bottom: 12px;
+}
+
+.div8container{
+    width: 100%;
+height: 396px;
+top: 80px;
+gap: 30px;
+left: 182px;
+display: flex;
+justify-content: space-between;
+}
