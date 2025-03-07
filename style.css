@@ -3,14 +3,20 @@
     padding: 0;
     box-sizing: border-box;
     font-family: Arial, sans-serif;
+    width: auto;
 }
 /* body { */
     /* overflow-y: hidden;  */
     /* overflow-x: hidden; */
 /* } */
+
 .header {
-    background-color: #f8f9fa;
+    background-color: #f7f9ff;
     padding: 15px 0;
+    top: 0;
+    left: 0;
+    width: 100%;
+    position: fixed;
 }
 nav {
     display: flex;
@@ -114,7 +120,7 @@ left: 20px;
     padding: 20px;
     width: auto;
     margin-bottom: 100px;
-    
+    padding-top: 100px;
 }
 .main-d{
     font-family: "Gilroy-Bold", sans-serif; 
@@ -201,7 +207,7 @@ gap: 8px;
     letter-spacing: 0%;
 }
 .watchbox{
-    width: 1206px;
+    width: auto;
 height: 270px;
 top: 1055px;
 left: 80px;
@@ -221,13 +227,16 @@ letter-spacing: 0%;
 text-align: center;
 padding-top: 70px;
 margin-top:100px ;
+width: auto;
 }
+/* slide3 */
+
 .div3{
     background-color: #f7f9ff;
     margin-top: 150px;
+    justify-content: center;
 }
 
-/* slide3 */
 .b2{
     width: 1003px;
     display: flex;
@@ -270,6 +279,7 @@ font-family: "Gilroy-Bold", sans-serif;
 height: 191px;
 margin-top: 0px;
 left: 182px;
+
 justify-content:space-around;
 margin-left: 120px;
 }
@@ -417,9 +427,58 @@ font-family: "Gilroy-Bold", sans-serif;
 } */
 
 /* slide8 */
-.div8{
-    width: 1366px;
-height: 586px;
-top: 5145px;
-background-color: #0d2116;
+
+.div8 {
+    display: flex;
+    justify-content: space-between; 
+    align-items: flex-start;
+    width: aut0;
+    height: 586px;
+    margin: auto; 
+    padding: 40px; 
+    background-color: #0d2116;
+    margin-top: 100px;
+    color: #ffffff;
 }
+
+.div8-box {
+    flex: 1; 
+    min-width: 250px; 
+    margin: 10px;
+    color: white;
+}
+
+.div8-box1 {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.logo-title {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.logo {
+    width: 50px;
+    height: auto;
+}
+
+.title {
+    font-size: 20px;
+    font-weight: bold;
+    margin: 0;
+}
+
+.description {
+    font-size: 14px;
+    line-height: 1.5;
+    color: #9497a1;
+}
+
+.icons {
+    display: flex;
+    justify-content: space-between;
+}
+
